@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-next",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "devDependencies": {
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
