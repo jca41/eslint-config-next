@@ -6,6 +6,10 @@
     "prettier.config.js",
     "stylelint.config.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jca41/eslint-config-next.git"
+  },
   "dependencies": {
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
