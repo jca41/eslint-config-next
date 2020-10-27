@@ -1,7 +1,6 @@
 {
   "name": "@jpcafe/eslint-config-next",
   "version": "1.0.0",
-  "private": false,
   "files": [
     "index.js",
     "prettier.config.js",
