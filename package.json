@@ -2,6 +2,11 @@
   "name": "eslint-config-next",
   "version": "1.0.0",
   "private": false,
+  "files": [
+    "index.js",
+    "prettier.config.js",
+    "stylelint.config.js"
+  ],
   "dependencies": {
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
@@ -17,6 +22,7 @@
   "peerDependencies": {
     "eslint": ">=0.8.0",
     "stylelint": ">=13.0.0",
-    "prettier": ">=2.0.0"
+    "prettier": ">=2.0.0",
+    "stylelint-config-sass-guidelines": "^7.1.0"
   }
 }
