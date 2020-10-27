@@ -20,9 +20,7 @@ module.exports = {
   "plugins": ["react", "prettier", "simple-import-sort"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "prettier/prettier": ["error",{
-        "singleQuote": true, "printWidth": 120, "endOfLine": "auto"
-      }],
+    "prettier/prettier": "error",
     "simple-import-sort/sort": "error"
   },
   "globals": {
