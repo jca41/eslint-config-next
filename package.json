@@ -10,6 +10,9 @@
     "type": "git",
     "url": "https://github.com/jca41/eslint-config-next.git"
   },
+  "scripts": {
+    "publish": "npm --userconfig ../.private.npmrc --access=public publish"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.26.1",
     "@typescript-eslint/parser": "^4.26.1",
