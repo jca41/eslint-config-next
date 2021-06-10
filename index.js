@@ -20,6 +20,7 @@ module.exports = {
   "plugins": ["react", "prettier", "simple-import-sort"],
   "rules": {
     "react/react-in-jsx-scope": "off",
+    'react/prop-types': 'off',
     "prettier/prettier": "error",
     "simple-import-sort/sort": "error"
   },
@@ -33,5 +34,6 @@ module.exports = {
     "react": {
       "version": "detect"
     }
-  }
+  },
+  overrides: [require('./index-ts')],
 }
