@@ -1,6 +1,6 @@
 type Test = {
-    a: string;
-    b: number;
-}
+  a: string;
+  b: number;
+};
 
 const a: Test = 1;
