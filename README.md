@@ -1,3 +1,5 @@
+**Deprecated**
+
 ## Eslint
 
 In `.eslintrc.json`:
